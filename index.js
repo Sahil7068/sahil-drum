@@ -51,12 +51,6 @@ function handleClick() {
   anima(btns);
 }
 
-document.addEventListener("keypress", news);
-
-function news() {
-  alert("keyboard");
-}
-
 function anima(current) {
   let actbtn = document.querySelector("." + current);
   actbtn.classList.add("pressed");
